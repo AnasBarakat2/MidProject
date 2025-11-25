@@ -1,0 +1,113 @@
+body{
+    /* background-color: rgb(250, 218, 175); */
+    background-image :  url(https://media.gettyimages.com/id/1702531659/video/flying-over-data-patterns-curved-lines-abstract-technology-background-futuristic-landscape.jpg?s=640x640&k=20&c=ET5gF-3RTjgKPR1DfiPono7aW6YYk2vg8gprRI_dr94=);
+   background-position: center;
+    background-repeat: no-repeat ;
+   background-size: cover;
+    padding: 0;
+    margin: 0;
+   
+   
+}
+
+img{
+
+    border-radius: 150px;
+    /* margin-top: 20%; */
+    /* padding-left: 10%; */
+    /* margin-left: px; */
+    padding: 15px;
+    width: 150px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+a:hover{
+    color: rgb(247, 103, 103);
+}
+
+
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    margin: 30px;
+}
+
+
+.GridItem{
+   
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10%;
+    
+    
+   /* align-items: center; */
+}
+.imgGrid{
+    width: 250px;
+    border-radius: 20px;
+}
+.GridItem button{
+    font-size: 20px;
+    background-color: blue;
+    color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.GridItem button:hover{
+    background-color: bisque; /* بتغير لون الزر لما نأشر عليه*/
+    color: blue;
+}
+
+.imgGrid:hover{
+    width: 300px; /* عشان يكبر الصورة لما نأشر عليها*/
+}
+
+.GridItem p {
+    font-size: larger;
+    color: rgb(109, 30, 30);
+ 
+}
+
+
+#footer{ 
+   
+    
+   background-color: rgb(125, 144, 144);
+   display: flex;
+   height: 100%;
+   justify-content:center;/*   توسيط للعناصر جزء لليمين و جزء لليسار*/
+   align-items:center; /* بتوسط العنصر بشكل عامودي*/
+   margin-top: 20%;
+   padding: 20px 0;
+   
+}
+footer {
+    /* position: fixed; */ /* بنحذفها عشان الفوتر ما يغطي عالصور*/
+    /* bottom: 0; */
+    width: 100%;
+}
+
+#footul{
+   padding-right: 20px;
+    gap:30%;/* المسافة بين العناصر*/
+    margin-left: 5% ;
+}
+
+ul{
+    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
+    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    gap: 80px;/* المسافة بين العناصر*/
+    margin-right: 300px; /*عشان احرك الليست كاملة */
+    /* margin-left: 600px; */
+    /* padding-top:10px; */
+   
+    
+}
