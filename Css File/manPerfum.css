@@ -1,9 +1,10 @@
 body{
-    /* background-color: rgb(250, 218, 175); */
-    background-image :  url(https://media.gettyimages.com/id/1702531659/video/flying-over-data-patterns-curved-lines-abstract-technology-background-futuristic-landscape.jpg?s=640x640&k=20&c=ET5gF-3RTjgKPR1DfiPono7aW6YYk2vg8gprRI_dr94=);
+    /* background-color: rgb(159, 120, 68); */
+    /* background-image :  url(https://media.gettyimages.com/id/1702531659/video/flying-over-data-patterns-curved-lines-abstract-technology-background-futuristic-landscape.jpg?s=640x640&k=20&c=ET5gF-3RTjgKPR1DfiPono7aW6YYk2vg8gprRI_dr94=);
    background-position: center;
     background-repeat: no-repeat ;
-   background-size: cover;
+   background-size: cover; */
+   background-color: rgb(176, 176, 252);
     padding: 0;
     margin: 0;
    
@@ -22,7 +23,7 @@ img{
 }
 a{
     text-decoration: none;
-    font-size: 25px;
+    /* font-size: 25px; */
     color: blanchedalmond;
 }
 a:hover{
@@ -67,7 +68,7 @@ a:hover{
 }
 
 .imgGrid:hover{
-    width: 300px; /* عشان يكبر الصورة لما نأشر عليها*/
+    width: 350px; /* عشان يكبر الصورة لما نأشر عليها*/
 }
 
 .GridItem p {
@@ -110,4 +111,184 @@ ul{
     /* padding-top:10px; */
    
     
+}
+
+
+/*------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* --------------------Tab responsive------------------------------------------------- */
+
+@media screen and (max-width:900px) {
+
+    body{
+        background-color: rgb(212, 210, 223);
+        padding: 0;
+        margin: 0;
+    }
+
+     .mainGrid{
+    display: grid;
+    grid-template-columns: auto auto ;
+     
+     }
+
+  .GridItem{
+   
+    border: 2px solid black;
+    text-align: center;
+    padding: 1px;
+    margin: px;
+    margin-left: 1px;
+    border-radius: 10%;
+    
+}
+
+.imgGrid{
+    width: 150px;
+    border-radius: 50px;
+}
+
+.GridItem button{
+    font-size: 20px;
+    background-color: blue;
+    color: bisque;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+ul{
+    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
+    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    gap: 40px;/* المسافة بين العناصر*/
+    /* margin-right: 20%; */
+    /* margin-left: 20px; */
+    margin-left: 95px;
+  
+    
+} 
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+
+#navigatbar{
+    height: 150px;
+}
+
+}
+
+
+/*--------------------------- mobile responsive -----------------------------------------------------*/
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(239, 175, 175);
+         padding: 0;
+         margin: 0;
+    }
+    
+    .mainGrid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    /* margin: 15px; */
+}
+
+.GridItem{
+   
+    border: 2px solid black;
+    text-align: center;
+    padding: 1px;
+    /* margin: px; */
+    margin-left: 1px;
+    border-radius: 10%;
+    
+}
+
+.imgGrid{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.GridItem button{
+    font-size: 15px;
+    background-color: blue;
+    color: bisque;
+    padding: 7px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+#navigatbar{
+ background-color: rgb(15, 55, 107);
+ display: flex;
+ height: 150px;
+justify-content: space-between;
+ align-items:center;
+}
+
+navbar img{
+
+    border-radius: 150px;
+    /* margin-top: 20%; */
+    /* padding-left: 10%; */
+    /* margin-left: px; */
+    /* padding: 15px; */
+    width: 70px;
+    /* padding-top: 100px; */
+    position: fixed;
+    top: 2px;
+    
+    
+    
+}
+
+
+
+
+
+.GridItem p {
+    font-size :small;
+    color: rgb(109, 30, 30);
+ 
+}
+
+ul{
+    list-style: none;/* حتى تكون القائمة بدون ترقيم*/
+    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    gap: 40px;/* المسافة بين العناصر*/
+    /* margin-right: 20%; */
+    /* margin-left: 20px; */
+    margin-left: 40px;
+  
+    
+} 
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: blanchedalmond;
+    
+}
+
+img{
+
+    border-radius: 150px;
+    
+    width: 150px;
+    
+    margin-top:75px;
+    
+    
+}
+
 }

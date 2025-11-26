@@ -1,8 +1,13 @@
-body{
-    /* background-color: rgb(230, 186, 128); */
-    background-image: url(https://img.freepik.com/premium-photo/female-hand-with-bottle-perfume-dark-copy-space_392895-24027.jpg); */
-     background-size:cover;
-    background-repeat: no-repeat;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://fraganote.com/cdn/shop/files/Banner_Web_1_1.png?v=1763796834&width=1440');
+    
+    height: 100%;
+    background-size: cover;        
+    /* background-position: center;   */
+    /* background-repeat: no-repeat;  */
+    
 }
 
  /* .Navbar{
@@ -13,21 +18,39 @@ body{
     height: 100px;
  }  */
 
+ .navbar{
+    color: rgb(254, 174, 206);
+    padding-right: 100px;
+ }
+
 #name{
-    color: rgb(132, 153, 153);
+    color: rgb(118, 3, 31);
+    font-style: italic;
+    font-weight: 700;
+    font-family: A;
+    
 }
 
-.navbar{
+/* .navbar{
     padding-right: 100px;
-}
+} */
 
 
 .main{
     /* background-color: rgb(189, 157, 116); */
     /* background-image: url(https://thedieline.com/wp-content/uploads/2020/10/2d8c12fc-3cc2-4cac-8b2d-a426d5e60dc2_MoS_PoisonIvy123OCT19.jpg); */
-    height: 600px;
+     /* background-image: url(https://img.freepik.com/premium-photo/female-hand-with-bottle-perfume-dark-copy-space_392895-24027.jpg); 
+     background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%; */
+    
    
     
+}
+
+
+#mainImg{
+    /* height: 300px; */
 }
 
 /* .footer{
@@ -43,13 +66,16 @@ body{
 #footer{ 
    
     
-   background-color: rgb(125, 144, 144);
+   background-color: rgb(113, 3, 31);
    display: flex;
-   height: 100%;
-   justify-content:center;/*   توسيط للعناصر جزء لليمين و جزء لليسار*/
-   align-items:center; /* بتوسط العنصر بشكل عامودي*/
-   margin-top: 20%;
+   
+  justify-content:center;/*   توسيط للعناصر جزء لليمين و جزء لليسار
+   /* align-items:center; بتوسط العنصر بشكل عامودي */
+   margin-top: 100%;
    padding: 20px 0;
+   
+   
+   
    
 }
 footer {
@@ -71,6 +97,12 @@ ul{
     margin-right: 300px; /*عشان احرك الليست كاملة */
     /* margin-left: 600px; */
     /* padding-top:10px; */
+    
    
     
+}
+
+a{
+    color: rgb(201, 185, 185);
+    font-size: large;
 }
