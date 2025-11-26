@@ -1,8 +1,8 @@
 body{
     /* background-color: rgb(230, 186, 128); */
     background-image: url(https://img.freepik.com/premium-photo/female-hand-with-bottle-perfume-dark-copy-space_392895-24027.jpg); */
-     /* background-size:cover;
-    background-repeat: no-repeat; */
+     background-size:cover;
+    background-repeat: no-repeat;
 }
 
  /* .Navbar{
@@ -24,7 +24,7 @@ body{
 
 .main{
     /* background-color: rgb(189, 157, 116); */
-    background-image: url(https://thedieline.com/wp-content/uploads/2020/10/2d8c12fc-3cc2-4cac-8b2d-a426d5e60dc2_MoS_PoisonIvy123OCT19.jpg);
+    /* background-image: url(https://thedieline.com/wp-content/uploads/2020/10/2d8c12fc-3cc2-4cac-8b2d-a426d5e60dc2_MoS_PoisonIvy123OCT19.jpg); */
     height: 600px;
    
     
