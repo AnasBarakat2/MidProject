@@ -86,7 +86,7 @@ a:hover{
 #footer{ 
    
     
-   background-color: rgb(125, 144, 144);
+   background-color: rgb(124, 130, 220);
    display: flex;
    height: 100%;
    justify-content:center;/*   توسيط للعناصر جزء لليمين و جزء لليسار*/
@@ -99,6 +99,17 @@ footer {
     /* position: fixed; */ /* بنحذفها عشان الفوتر ما يغطي عالصور*/
     /* bottom: 0; */
     width: 100%;
+}
+#Wfooter{
+      
+   background-color: rgb(253, 137, 210);
+   display: flex;
+   height: 100%;
+   justify-content:center;/*   توسيط للعناصر جزء لليمين و جزء لليسار*/
+   align-items:center; /* بتوسط العنصر بشكل عامودي*/
+   margin-top: 20%;
+   padding: 20px 0;
+   
 }
 
 #footul{
@@ -117,6 +128,8 @@ ul{
    
     
 }
+
+
 
 
 /*------------------------------*/
