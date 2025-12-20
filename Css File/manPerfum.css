@@ -7,6 +7,29 @@ body{
    
 }
 
+body{
+
+    background-color: rgb(163, 161, 236);
+    color: black;
+}
+
+#theme {
+     border-radius: 30%;
+     /* padding-top: 15px; */
+     /* margin-top: 1%; */
+     
+     color: rgb(254, 149, 149);
+     background-color: rgb(138, 3, 23);
+     font-weight: 600;
+}
+
+.dark-mode{
+    background-color: rgb(152, 255, 176);
+    color: white;
+}
+
+
+
 #name{
     /* color: rgb(118, 3, 31); */
     font-style: italic;
@@ -191,11 +214,11 @@ body {
 
 ul{
     /* list-style: none;حتى تكون القائمة بدون ترقيم */
-    display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
+    display: flex;    /*ليسهل علي تحريك العناصر و التحكم فيها */
     /* gap: 40px;المسافة بين العناصر */
     /* margin-right: 20%; */
     /* margin-left: 20px; */
-    margin-left: 95px;
+    /* margin-left: 95px; */
   
     
 } 
@@ -204,11 +227,14 @@ a{
     text-decoration: none;
     font-size: 20px;
     color: blanchedalmond;
+
     
 }
 
 #navigatbar{
     height: 150px;
+    
+    
 }
 
 }
@@ -260,6 +286,8 @@ a{
  height: 150px;
 justify-content: space-between;
  align-items:center;
+
+ 
  
 }
 
@@ -292,7 +320,7 @@ navbar img{
 ul{
     list-style: none;/* حتى تكون القائمة بدون ترقيم*/
     display: flex;/* ليسهل علي تحريك العناصر و التحكم فيها*/
-    gap: 40px;/* المسافة بين العناصر*/
+    gap: 40px  ;  /*المسافة بين العناصر*/
     /* margin-right: 20%; */
     /* margin-left: 20px; */
     margin-left: 40px;
@@ -305,6 +333,8 @@ a{
     font-size: 17px;
     color: blanchedalmond;
     
+    
+    
 }
 
 img{
@@ -316,6 +346,6 @@ img{
     margin-top:75px;
     
     
-}
+} 
 
 }
