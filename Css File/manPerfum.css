@@ -213,12 +213,9 @@ body {
 }
 
 ul{
-    /* list-style: none;حتى تكون القائمة بدون ترقيم */
+   
     display: flex;    /*ليسهل علي تحريك العناصر و التحكم فيها */
-    /* gap: 40px;المسافة بين العناصر */
-    /* margin-right: 20%; */
-    /* margin-left: 20px; */
-    /* margin-left: 95px; */
+    
   
     
 } 
@@ -231,9 +228,22 @@ a{
     
 }
 
-#navigatbar{
-    height: 150px;
+.navigatbar{
+    /* height: 150px; */
+   display: flex; 
+   align-items: center;
+   justify-content: space-between; /* توزيع مسافات متساوية بين المجموعات */
+  /* padding: 1px ; */
+  gap: 5%;
+
+
+ padding: 10px 20px;
+padding-right: 5px;
+
+  
+  
     
+  
     
 }
 
@@ -280,32 +290,23 @@ a{
     margin-left: 10px;
 }
 
- #navigatbar {
- background-color: rgb(15, 55, 107);
+ .navigatbar {
+ /* background-color: rgb(15, 55, 107); */
  display: flex;
- height: 150px;
+ /* height: 150px; */
 justify-content: space-between;
  align-items:center;
+ padding: 10px 20px;
+padding-right: 5px;
+ 
+
+ 
 
  
  
 }
 
-navbar img{
 
-    border-radius: 150px;
-    /* margin-top: 20%; */
-    /* padding-left: 10%; */
-    /* margin-left: px; */
-    /* padding: 15px; */
-    width: 70px;
-    /* padding-top: 100px; */
-    position: fixed;
-    top: 2px;
-    
-    
-    
-}
 
 
 

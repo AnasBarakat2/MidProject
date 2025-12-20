@@ -116,3 +116,53 @@ body{
     color: white;
 }
 
+
+
+/*--------------------------Responsive------------------------------------------*/
+
+/*----------------Tab----------------------------------*/
+
+@media screen and (max-width:900px) {
+    
+    .navigatbar{
+    /* height: 150px; */
+   display: flex; 
+   align-items: center;
+   justify-content: space-between; /* توزيع مسافات متساوية بين المجموعات */
+  /* padding: 1px ; */
+  gap: 5%;
+
+
+ padding: 10px 20px;
+padding-right: 5px;
+
+  
+  
+    
+  
+    
+}
+}
+
+/*------------Mobile---------------*/
+
+@media screen and (max-width:600px) {
+
+
+.navigatbar {
+ /* background-color: rgb(15, 55, 107); */
+ display: flex;
+ /* height: 150px; */
+justify-content: space-between;
+ align-items:center;
+ padding: 10px 20px;
+padding-right: 5px;
+ 
+
+ 
+
+ 
+ 
+}
+}
+
