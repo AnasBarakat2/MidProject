@@ -18,16 +18,31 @@ body{
      /* padding-top: 15px; */
      /* margin-top: 1%; */
      
-     color: rgb(246, 163, 163);
-     background-color: rgb(243, 93, 116);
+     
+     background-color: rgb(88, 106, 242);
      font-weight: 600;
-     color: rgb(250, 198, 208);
+     color: rgb(192, 202, 250);
      font-family: serif;
+    
+     padding: 10px;
+     
 
 }
 
+#box{
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  /* padding-right: 10px; */
+ margin-left: auto;
+ margin-top: ;
+    
+    
+} 
+
+
 .dark-mode{
-    background-color: rgb(152, 255, 176);
+    background-color: rgb(148, 150, 148);
     color: white;
 }
 

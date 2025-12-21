@@ -114,7 +114,7 @@ body{
 }
 
 .dark-mode{
-    background-color: black;
+    background-color: rgb(174, 33, 33);
     color: white;
 }
 
